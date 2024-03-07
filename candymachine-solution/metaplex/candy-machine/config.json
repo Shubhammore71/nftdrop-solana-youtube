@@ -1,23 +1,24 @@
 {
-  "size": 3,
-  "symbol": "SMB",
-  "royalties": 500,
+  "tokenStandard": "nft",
+  "number": 3,
+  "symbol": "SPM",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
   "isSequential": false,
   "creators": [
     {
-      "address": "6D3JNTMDKqeA533CxnQTtzYHy1SuNCwvo7z9Cx3T9jJi",
+      "address": "9eE84KMY6TERHN2HHgbs3ifnasGcUYrtxa6TTUfNuJXv",
       "share": 100
     }
   ],
+  "uploadMethod": "bundlr",
+  "ruleSet": null,
+  "awsConfig": null,
+  "sdriveApiKey": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
   "hiddenSettings": null,
-  "uploadConfig": {
-    "method": "bundlr",
-    "awsConfig": null,
-    "nftStorageAuthToken": null,
-    "pinataConfig": null,
-    "shdwStorageAccount": null
-  },
-  "isMutable": true,
   "guards": {
     "default": {
       "botTax": {
@@ -25,13 +26,14 @@
         "lastInstruction": true
       },
       "startDate": {
-        "date": "2022-10-20 18:00:00 +0000"
+        "date": "2024-07-07 18:00:00 +0000"
       },
       "solPayment": {
-        "value": 2,
-        "destination": "2aaKJpbQNpJXPgReNKQtB5ozs1DnoADCQCGk5pD7x2Xg"
+        "value": 0.71,
+        "destination": "7mjTCgGiqkXdRnuDfiys1DDkVbbEQ552eszNzx8JJ1oc"
       }
     },
     "groups": null
-  }
+  },
+  "maxEditionSupply": null
 }

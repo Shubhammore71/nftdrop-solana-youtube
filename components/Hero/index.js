@@ -13,12 +13,16 @@ const Hero = () => {
   return (
     <main className={styles.wrapper}>
       <div className={styles.container}>
-        <h1 className={styles.heroTitle}>Solana Monkey Business</h1>
+        <h1 className={styles.heroTitle}>Solana Penguin Business</h1>
         <p className={styles.heroParagraph}>
-          *This is NOT a real SMB NFT it is a clone made for learning purposes!*
+          *This is NOT a real SPM NFT it is a clone made for learning purposes!*
         </p>
         <p className={styles.heroParagraph}>
-          SMB Gen2 is a collection of 5000 unique 24x24 pixels randomly generated Monkeys stored on the Solana blockchain. With their accessibility-oriented design, the monkeys' goal is to invade the blockchain and spread their community. The monkeys feature owner-exclusive advantages such as NFT ownership, as well as a community wallet useable by holders with a future on-chain voting system. The Solana Monkeys' metadata is stored on Arweave, a permanent decentralized data storage. Each monkey is generated from over 99 possible traits spread over 6 layers, with some monkeys being rarer than others. Reject humanity, return to monke.
+        "SPM Gen2 is a collection of 5000 unique 24x24 pixel randomly generated Penguins stored on the Solana blockchain. These penguins, inspired by the famous 'Return to Monke' meme, are designed to bring accessibility and community engagement to the blockchain. Each penguin comes with exclusive NFT ownership rights and access to a community wallet, enabling holders to participate in future on-chain voting systems.
+
+The metadata of the Solana Penguins is securely stored on Arweave, ensuring permanent decentralized data storage. These penguins are generated from over 99 possible traits spread across 6 layers, resulting in some penguins being rarer than others.
+
+Embracing the spirit of 'Reject humanity, return to penguin,' the Solana Penguins aim to establish a vibrant and inclusive community within the blockchain ecosystem.
         </p>
         <div className={styles.heroCta}>
         </div>

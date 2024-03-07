@@ -1,5 +1,5 @@
 import Logo from './Logo'
-
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
 const styles = {
   wrapper: 'flex items-center space-x-10',
   container: 'flex flex-1 justify-between',
@@ -41,7 +41,7 @@ const Header = () => {
           <li className={styles.navItem}>Gallery</li>
         </ul>
         {/* Wallet connect button goes here!  */}
-        <button className='bg-gray-100 text-gray-900'>Connect Wallet</button>
+        <WalletMultiButton/>
       </div>
     </header>
   )

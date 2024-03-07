@@ -1,20 +1,20 @@
 {
-    "name": "Studious Crab #1",
-    "symbol": "CRAB",
-    "description": "The Studious Crabs are smart and productive crabs.",
+    "name": "Penguin #1617",
+    "symbol": "SPM",
+    "description": "All we hear are little penguins!",
     "image": "0.png",
     "attributes": [
         {
-            "trait_type": "accessory",
-            "value": "lamp"
+            "trait_type": "Back",
+            "value": "Swords"
         },
         {
-            "trait_type": "chair",
-            "value": "red"
+            "trait_type": "Eyes",
+            "value": "Fearful Eyes"
         },
         {
-            "trait_type": "books",
-            "value": "blue"
+            "trait_type": "Hat",
+            "value": "Cowboy Hat"
         }
     ],
     "properties": {
